@@ -1,0 +1,27 @@
+.logo img {
+  width: 50px;
+  margin-right: var(--margin-large);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-black);
+  text-decoration: none;
+
+  a{
+    &:link{
+      color: var(--color-black);
+    }
+    &:visited{
+      color: var(--color-black);
+    }
+    &:hover{
+      color: var(--color-black);
+    }
+    &:active{
+      color: var(--color-black);
+    }
+  }
+}

@@ -1,6 +1,25 @@
-.hero{
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: var(--margin-large);
+  padding: 0 var(--padding-thin);
+
+  div {
+    margin-top: var(--margin-large);
+    margin-bottom: var(--margin-large);
+  }
+
+  img {
+    margin-top: var(--margin-large);
+    margin-bottom: var(--margin-large);
+    width: 204px;
+  }
+
+  h1, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 }
